@@ -12,4 +12,4 @@ sudo trust anchor caiof3.cer
 sudo gedit /etc/crypto-policies/back-ends/gnutls.config
 
 # Connect
-sudo openconnect -c '' https://vpn.csas.cz
+nu ./vpn.nu
